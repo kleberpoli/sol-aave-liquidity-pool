@@ -8,36 +8,38 @@ This project demonstrates a simple liquidity pool smart contract that allows use
 
 ## How to Use
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/kleberpoli/sol-aave-liquidity-pool.git
-   cd aave-liquidity-pool
-   ```
+
+```bash
+git clone https://github.com/kleberpoli/sol-aave-liquidity-pool.git
+cd aave-liquidity-pool
+```
 
 2. **Install dependencies**:
-   ```bash
-	npm install
-   ```
+
+```bash
+npm install
+```
 
 3. **Test the contract**:
 
-   ```bash
-	npx hardhat test
-   ```
+```bash
+npx hardhat test
+```
 
 ## Testing with Hardhat
 1. **Install dependencies**:
 
-   ```bash
-	npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers
-   ```
+```bash
+npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers
+```
 
 2. **Test file example (test/LiquidityPool.js)**:
 
 3. **Run tests**:
 
-   ```bash
-	npx hardhat test
-   ```
+```bash
+npx hardhat test
+```
 
 ## Security Best Practices
 - **Use of SafeMath:** In versions prior to 0.8.x, we’d use libraries like `SafeMath` to avoid overflow and underflow issues. Solidity 0.8.x natively protects against these, so it's no longer needed.
